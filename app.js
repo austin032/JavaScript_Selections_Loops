@@ -1,7 +1,7 @@
 console.log("Hello World!\n==========\n");
 
 // Exercise 1 Section
-for(var numbers = 100; numbers >= 0; numbers++){
+for(var numbers = 1; numbers <= 100; numbers++){
     if(numbers % 2 != 0)
         {
         console.log(numbers);
@@ -16,7 +16,7 @@ for(var numbers = 100; numbers >= 0; numbers++){
 
 
 // Exercise 2 Section
-for(var numbers = 100; numbers >= 0; numbers++){
+for(var numbers = 1; numbers <= 100; numbers++){
     if(numbers % 3 == 0){
         console.log(`'FIZZ'`);
     }
